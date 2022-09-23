@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<body>
+  <div id="header">
+  
+   <div class="container">
+            <!-- Nav start -->
+            <nav>
+                <h1> M<span>M</span>P.</h1>
+             <ul id="sidemenu">
+                    <li><a href="#header" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa fa-navicon" onclick="openmenu()">  </i>  
+            </nav>
+
+       
+            <div class="headertext"> 
+                <div class="pic">
+                <img class="image" src="image/mantasha .png" style="border-radius: 15px;">
+                </div>
+                <div class="text">
+                <p>Fontend Development</p>
+                <h3>Hi, I'm <span>Miss Montasha Parvien</span> <br>From  Bangladesh</h3>
+                </div>
+            </div>   
+         </div>
+
+    </div>
+
+
+
+    <!-- About start -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img  src="image/user.jpg">
+                </div>
+
+
+                <div class="about-col-2">
+                    <div>
+                        <h1 class="sub-title"> About Me</h1>
+                    </div>
+                    <div>
+                        <p class="tab-titles2">The design stream has a specialty called web design. To build design components, they also
+                            employ tools like markup validators, HTML, CSS, and JavaScript software.</p>
+
+                    </div>
+                   
+                     
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links  active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android</li>
+                        </ul>
+                    </div> 
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <!-- <li><span>2021 - Current</span><br>UI/UX Design Training at ET Institute  </li>
+                            <li><span>2019 - 2021</span><br>Team lead at StarApp LLC</li>
+                            <li><span>2016 - 2017</span><br>Internship at ekart eCommerce</li> -->
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>Green University of Bangladesh(GUB).</li>
+                            <li><span>2017</span><br>Parbatipur Adarsha Degree Collage.</li>
+                            <li><span>2014</span><br>Parbatipur Pilot Girls High School.</li>
+                        </ul>
+                    </div>
+
+
+             </div>
+            </div>
+        </div>
+
+    </div>
+
+   <!-- ................... ......services.................. -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"> My Services</h1>
+        <div class="services-list">
+
+                  <div>
+                    <i class="fa fa-code" style="font-size: 24px; "></i>
+                        <!-- <i class="fa fa-retweet" style="font-size: 50px; "></i> -->
+                        <h2>UI/Ux Design</h2>
+                        <p> User interface and user experience are two different terms. A designer begins by determining the issues that individuals
+                        face in their daily lives, whether they arise at work, at home, at the gym, or anyplace else. Designers then determine
+                        how a website or app on a computer or smartphone may assist users in resolving such issues.</p>
+                       <a href="#">Learn more</a>
+                  </div>
+
+
+                <div>
+                    <i class="fa fa-crop"  style="font-size: 24px; "></i>
+                    <h2>Web Development</h2>
+                    <p>Building, constructing, and managing websites are all included in web development. It covers things like web design, web
+                    publishing, web programming, and database administration. It involves the development of an online application. </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+
+                <div>
+                <i class="fa fa-android"   style="font-size: 24px"></i>
+                    <h2>App design</h2>
+                    <p>App design combines the user interface (UI) and user experience (UX). While UI lends itself to the overall style of the
+                    app (including the colors, fonts, and general look and feel), UX focuses on the actual functionality and usability.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<!-- ..................portfolio........................... -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My Work</h1>
+        <div class="work-list">
+
+            <div class="work">
+                <img src="image/work-1.jpg">
+                <div class="layer">
+                    <h3>E-Commerce Site</h3>
+                    <p>A website that allows people to buy and sell physical goods, services, and digital products over the internet rather
+                    than at a brick-and-mortar location. Through an e-commerce website, a business can process orders, accept payments,
+                    manage shipping and logistics, and provide customer service</p>
+                    <a href="#"> <i class="fa fa-external-link"></i></a>
+                </div>
+            </div>
+
+
+            <div class="work">
+                <img src="image/work-2.jpg">
+                <div class="layer">
+                    <h3>Analog Watch</h3>
+                    <p>We are going to build a real-time analog clock using HTML, CSS, and JavaScript</p>
+                <a href="#"> <i class="fa fa-external-link"></i></a>
+                </div>
+            </div>
+
+
+            <div class="work">
+                <img src="image/work-3.jpg">
+                <div class="layer">
+                    <h3>University Management System</h3>
+                    <p>university management system (UMS) is a digital solution that helps automate tasks. Ranging from registering students,
+                    admitting students, onboarding them, managing their fees, managing payroll for lecturers to helping students access
+                    online learning, classroom training etc</p>
+                <a href="#"> <i class="fa fa-external-link"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <a href="#" class="btn">See more</a>
+
+    </div>
+</div>
+
+
+
+<!-- .......................contact.............................. -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa fa-paper-plane"></i>mantasha2031@gmail.com</p>
+                <p><i class="fa fa-phone"></i>01952725369</p>
+               
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook-square fa_custom"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                   
+                    <!-- <a href="#"><i class='fab fa-linkedin-in' style='font-size:48px;color:red'></i></a> -->
+                </div>
+
+                <a href="image/Miss Montasha Parvin CV.pdf"  download class="btn btn2">Download CV</a>
+            </div>
+
+            <div class="contact-right">
+               <form>
+                    <input type="text"  name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                      
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+               </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @mmp. <i class="fa fa-heart"></i> Made with by Easy</p>
+    </div>
+</div>
+
+
+
+
+    <script>
+        var tablinks =document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+      
+         
+        }
+     
+          
+    </script>
+
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right="0"
+        }
+
+        function closemenu(){
+            sidemeu.style.right = "-200px"
+        }
+    </script>
+
+   
+
+</body>
+
+</html>
+
+ 
